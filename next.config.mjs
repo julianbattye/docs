@@ -19,6 +19,7 @@ const nextConfig = {
   experimental: {
     scrollRestoration: true,
   },
+  output: 'export',
 }
 
 export default withMDX(nextConfig)
