@@ -28,6 +28,7 @@ export default function App({ Component, pageProps }) {
           <title>{`${pageProps.title} - Protocol API Reference`}</title>
         )}
         <meta name="description" content={pageProps.description} />
+        <link rel="stylesheet" href="https://rsms.me/inter/inter.css"></link>
       </Head>
       <MDXProvider components={mdxComponents}>
         <Layout {...pageProps}>

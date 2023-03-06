@@ -1,3 +1,5 @@
+const defaultTheme = require('tailwindcss/defaultTheme')
+
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: ['./{src,mdx}/**/*.{js,mjs,jsx,mdx}'],
@@ -35,6 +37,9 @@ module.exports = {
         2.5: '0.025',
         7.5: '0.075',
         15: '0.15',
+      },
+      fontFamily: {
+        sans: ['Inter var', ...defaultTheme.fontFamily.sans],
       },
     },
   },
