@@ -187,6 +187,7 @@ export const navigation = [
   {
     title: 'Guides',
     links: [
+      { title: 'Freeze a membership', href: '/freeze' },
       { title: 'Introduction', href: '/' },
       { title: 'Quickstart', href: '/quickstart' },
       { title: 'SDKs', href: '/sdks' },

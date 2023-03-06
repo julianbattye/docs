@@ -3,6 +3,11 @@ import { Heading } from '@/components/Heading'
 
 const guides = [
   {
+    href: '/freeze',
+    name: 'Freeze a membership',
+    description: 'Learn how to freeze a membership.',
+  },
+  {
     href: '/authentication',
     name: 'Authentication',
     description: 'Learn how to authenticate your API requests.',
