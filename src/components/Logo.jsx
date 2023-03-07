@@ -9,6 +9,7 @@ export function Logo(props) {
         />
         <g
           fill="#2e4058"
+          class="fill-zinc-900 dark:fill-white"
           fill-rule="nonzero"
           transform="translate(53.086647 4.909103)"
         >

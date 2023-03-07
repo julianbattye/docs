@@ -9,7 +9,7 @@ module.exports = ({ theme }) => ({
       '--tw-prose-bold': theme('colors.zinc.900'),
       '--tw-prose-counters': theme('colors.zinc.500'),
       '--tw-prose-bullets': theme('colors.zinc.300'),
-      '--tw-prose-hr': theme('colors.zinc.900 / 0.05'),
+      '--tw-prose-hr': theme('colors.zinc.900 / 0.08'),
       '--tw-prose-quotes': theme('colors.zinc.900'),
       '--tw-prose-quote-borders': theme('colors.zinc.200'),
       '--tw-prose-captions': theme('colors.zinc.500'),
@@ -27,7 +27,7 @@ module.exports = ({ theme }) => ({
       '--tw-prose-invert-bold': theme('colors.white'),
       '--tw-prose-invert-counters': theme('colors.zinc.400'),
       '--tw-prose-invert-bullets': theme('colors.zinc.600'),
-      '--tw-prose-invert-hr': theme('colors.white / 0.05'),
+      '--tw-prose-invert-hr': theme('colors.white / 0.08'),
       '--tw-prose-invert-quotes': theme('colors.zinc.100'),
       '--tw-prose-invert-quote-borders': theme('colors.zinc.700'),
       '--tw-prose-invert-captions': theme('colors.zinc.400'),
@@ -208,6 +208,8 @@ module.exports = ({ theme }) => ({
       'img, video, figure': {
         marginTop: theme('spacing.8'),
         marginBottom: theme('spacing.8'),
+        marginLeft: 'auto',
+        marginRight: 'auto',
       },
       'figure > *': {
         marginTop: '0',
