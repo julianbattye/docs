@@ -13,3 +13,22 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+article img {
+  border-radius: 6px;
+}
+
+.mid img {
+  max-width: 448px;
+  width: 100%;
+}
+
+.modal img {
+  max-width: 554px;
+  width: 100%;
+}
+
+.lrg img {
+  max-width: 592px;
+  width: 100%;
+}
